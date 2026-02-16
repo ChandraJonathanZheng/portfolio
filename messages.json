@@ -1,0 +1,54 @@
+{
+  "messages": [
+    {
+      "message": "新年快樂！祝你新的一年事業順利，心想事成！",
+      "subject": "親愛的朋友",
+      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=恭喜發財"
+    },
+    {
+      "message": "恭喜發財！願你在新的一年裡，每一天都充滿喜悅和幸福！",
+      "subject": "小寶貝",
+      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=新年快樂"
+    },
+    {
+      "message": "新年新氣象！祝你身體健康，工作順心，生活美滿！",
+      "subject": "親愛的家人",
+      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=紅包"
+    },
+    {
+      "message": "龍年大吉！祝你新的一年龍騰虎躍，前程似錦！",
+      "subject": "摯友",
+      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=龍年快樂"
+    },
+    {
+      "message": "恭喜發財，新年快樂！願你的夢想在新的一年裡一一實現！",
+      "subject": "親愛的同學",
+      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=恭喜發財"
+    },
+    {
+      "message": "新年快樂！祝你在新的一年裡，愛情事業雙豐收！",
+      "subject": "寶貝",
+      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=Love"
+    },
+    {
+      "message": "恭祝新年快樂！願你的每一天都如同紅包一樣充滿驚喜和歡樂！",
+      "subject": "親愛的朋友",
+      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=驚喜"
+    },
+    {
+      "message": "新年快樂！祝你永遠年輕美麗，笑靨如花！",
+      "subject": "姐妹",
+      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=美麗"
+    },
+    {
+      "message": "龍年到！祝你新的一年生龍活虎，幸福安康！",
+      "subject": "好朋友",
+      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=龍年"
+    },
+    {
+      "message": "恭喜發財！願你新的一年裡，好運連連，大吉大利！",
+      "subject": "親愛的",
+      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=好運"
+    }
+  ]
+}

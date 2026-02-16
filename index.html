@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNY 紅包 - Happy Chinese New Year</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <img id="envelope-image" src="https://via.placeholder.com/400x500/dc143c/ffffff?text=紅包" alt="Red Envelope" class="envelope-image">
+                <div class="envelope-shine"></div>
+            </div>
+        </div>
+
+        <button id="open-btn" class="open-button">點擊開啟 (Click to Open)</button>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <button id="close-btn" class="close-button">&times;</button>
+            <div class="card">
+                <div class="card-header">
+                    <h2>恭喜發財</h2>
+                    <p class="subject" id="card-subject"></p>
+                </div>
+                <div class="card-body">
+                    <p id="card-message" class="message"></p>
+                </div>
+                <div class="card-footer">
+                    <p>From <strong>Chandra and Linlin</strong></p>
+                    <p class="footer-text">新年快樂 🧧</p>
+                </div>
+            </div>
+            <button id="next-btn" class="next-button">Next 紅包</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
