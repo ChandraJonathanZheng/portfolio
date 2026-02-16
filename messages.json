@@ -1,434 +1,476 @@
 {
+  "personalized": {
+    "dj_2026": {
+      "subject": "Dj",
+      "message": "DJ, thank you udah jadi bagian dari teman 1 tahun ini. imlek ini sebagai pertanda season yang baru. gw tahu lu punya visi yang teguh dalam keuangan. 祝福你明年成就到你心裡的意念! 也祝福你遇到適合你的女人，永遠陪伴著你!\n\n看著你服事好認真，追求神，我相信，連我一個人覺得神會帶領你，何況愛我們的阿爸天父，肯定陪伴著你!\n\n新年快樂 brother~!\n\n\n Question for you : Kapan Chandra dan Linlin Kawen~!?",
+      "image": "images/cropped_hb_2.png"
+    },
+    "james_2026": {
+      "subject": "James",
+      "message": "KiongHi,\norangnya diem-diem makan dalem, tapi thank you sering nemenin gw makan siang… wkwkwk.\nYuk bulking 2026! Semoga jualan Pokémon-nya laku cepat ya.\n\nMission:\nKalau lu jadi Presiden selama 1 hari, keputusan aneh apa yang bakal lu lakuin?",
+      "image": "images/cropped_hb_4.png"
+    },
+    "heni_2026": {
+      "subject": "Heni",
+      "message": "Halo Hen,\nlu bener-bener keren sih… selalu aja bikin terobosan yang nggak pernah gue sangka. Hal-hal yang dulu gue pikir mustahil, tapi lewat iman dan keberanian lu, semuanya jadi mungkin.\nSemangat terus buat new year, new season ya!\n新年快樂!\n\nBy the way, ada satu pertanyaan iseng:\nkalau harus nyanyiin pakai suara bayi, lagu apa yang paling menggambarkan kehidupan cinta lu? 😆",
+      "image": "images/cropped_hb_4.png"
+    },
+    "stevan_2026": {
+      "subject": "Stevan",
+      "message": "Kiong Hi Van2, Moga - moga setelah for good di Indo, bisa terbiasa ya dengan orang2 lokal XD. Semoga jadi koki terkenal di Bali! \n\n Mission : Apa hal paling memalukan yang pernah kamu kirim ke chat yang salah? Hahahaha.",
+      "image": "images/cropped_hb_2.png"
+    },
+    "nixon_2026": {
+      "subject": "Nixon",
+      "message": "Nixon, kiong hi anak genius! Hahahaha.\nAt least gw ada sekali lah ya nge-band sama lu. I believe you’ll bounce more than I saw you in Hope!\nWish di new season ini, lu bisa kenal Tuhan lebih dalam, dan jangan stress sama kerjaan terus ya! Hahahaha.\nKeep catching up ya! You’re always welcome in our life!\n\nMission untuk angpao:\nKalau hidup kamu film, genrenya apa?",
+      "image": "images/cropped_hb_3.png"
+    },
+    "elishua_2026": {
+      "subject": "Elishua",
+      "message": "Halo anak Indo… eh anak Malaysian? Eh lu anak mana… XD\nBeh, kirain pindah gereja doang… jadi tetangga ternyata!\nYuk kita jadi geng makan siang… hahaha.\nEnergic woman, mature—gw yakin sih lu bakal sukses suatu hari nanti. Bukan sukses versi dunia, tapi sukses sesuai panggilan Tuhan buat lu.\nSemangat ya di season baru! Gw tunggu cerita-cerita breakthrough dari lu.\nEven we’re not in the same church anymore, you’re always welcome in our life!\nCome visit us anytime and find us to have dinner together!\n\nMission:\nKalau kamu jadi hewan, kamu bakal jadi apa? Kenapa? Coba peragain suaranya!",
+      "image": "images/cropped_hb_4.png"
+    },
+    "davlen": {
+      "subject": "Davlen",
+      "message": "新年快樂 Pisan Anak JakBar yang Pahanya Gede Natural!!\nYang ga gue sangka beda umur sejauh ini, tapi lu ternyata ga muda - muda amet anaknya (old soul maksudnya XD )... LOL\nThanks ya udah jadi teman yang baik selama ini, selalu support dan nemenin gue. Semoga di tahun baru ini, kita bisa terus jaga hubungan baik ini, dan semoga kita bisa terus berkembang bersama-sama.\n\nHong Bao lu tunggu lu baik kiong hi ama gw dulu! KWKWKK \n God Always Bless You Bro!\n gw ga sabar buat ngeliat apa yang bakal terjadi di tahun baru ini, dan semoga kita bisa terus jadi teman yang baik untuk satu sama lain. Happy Chinese New Year bro!",
+      "image": "images/cropped_hb_4.png"
+    },
+    "andrew": {
+      "subject": "新年快樂 Andrew !",
+      "message": "Hey Man! So glad to have you as a friend that I can always count on! The way you come to see me and the support you gave, stand on my foot, that giving me the best support system I need now! This Chinese New Year, gonna be a new season for me as well and I will always support you as well to be the best Harmony Singer ! LOL!\n\n Made this simple 紅包祝福 and The bible I got from what I pray for you Last Night is From \nColossians 3:23-24, “Whatever you do, work at it with all your heart, as working for the Lord, not for human masters, since you know that you will receive an inheritance from the Lord as a reward. It is the Lord Christ you are serving.”\n\nMay this year be filled with blessings and joy for you! Happy Chinese New Year bro! ",
+      "image": "images/cropped_hb_4.png"
+    }
+  },
   "messages": [
     {
       "message": "新年快樂！祝你新的一年事業順利，心想事成！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=恭喜發財"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！願你在新的一年裡，每一天都充滿喜悅和幸福！",
       "subject": "小寶貝",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=新年快樂"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年新氣象！祝你身體健康，工作順心，生活美滿！",
       "subject": "親愛的家人",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=紅包"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年大吉！祝你新的一年龍騰虎躍，前程似錦！",
       "subject": "摯友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=龍年快樂"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財，新年快樂！願你的夢想在新的一年裡一一實現！",
       "subject": "親愛的同學",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=恭喜發財"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年快樂！祝你在新的一年裡，愛情事業雙豐收！",
       "subject": "寶貝",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=愛情"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "恭祝新年快樂！願你的每一天都如同紅包一樣充滿驚喜和歡樂！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=驚喜"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "新年快樂！祝你永遠年輕美麗，笑靨如花！",
       "subject": "姐妹",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=美麗"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "龍年到！祝你新的一年生龍活虎，幸福安康！",
       "subject": "好朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=龍年"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "恭喜發財！願你新的一年裡，好運連連，大吉大利！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=好運"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "新年新祝福！願你在新的一年裡，開心每一天！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=開心"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "恭恭喜喜！祝你新年吉祥，萬事如意！",
       "subject": "同事",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=吉祥"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "新春快樂！願你新的一年裡，步步高昇，前景光明！",
       "subject": "親愛的經理",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=步步高昇"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜新年！祝你在新的一年裡，健康快樂，笑容常在！",
       "subject": "爸爸媽媽",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=健康快樂"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "龍年祝福！願你新的一年裡，事業蒸蒸日上！",
       "subject": "老闆",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=事業"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "新年好！祝你在新的一年裡，家庭和睦，親情永駐！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=家庭"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！願你在新的一年裡，金光閃閃！",
       "subject": "好友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=金光閃閃"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "龍年大吉大利！祝你新的一年裡，生活多彩多姿！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=多彩"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "新年快樂！祝你在新的一年裡，愉快每一刻！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=愉快"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！願你新的一年裡，工作順利，生活幸福！",
       "subject": "同學",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=順利幸福"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年祝福！祝你在新的一年裡，天天開心，永遠美麗！",
       "subject": "姐姐",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=開心美麗"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年快樂！願你在新的一年裡，夢想成真，目標達成！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=夢想"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭恭喜喜賀新春！祝你新的一年裡，笑靨依舊！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=新春"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年新氣象！祝你在新的一年裡，美夢成真！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=美夢"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！願你在新的一年裡，年年有余，歲歲平安！",
       "subject": "親戚",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=平安"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！願你在新的一年裡，福星高照！",
       "subject": "好友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=福星高照"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！祝你在新的一年裡，幸福安康，年年吉祥！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=吉祥"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年新春！祝你在新的一年裡，事事順心，心想事成！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=順心"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭祝新年快樂！願你在新的一年裡，健康如意！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=如意"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年祝福！祝你在新的一年裡，越來越精彩！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=精彩"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年大吉！願你新的一年裡，充滿希望和喜悅！",
       "subject": "好朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=希望"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，光芒四射！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=光芒"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，事業騰飛，生活美滿！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=騰飛"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，好事連連，運氣滿滿！",
       "subject": "同學",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=運氣"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭恭喜喜！願你新的一年裡，每一步都閃閃發光！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=發光"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新春快樂！祝你在新的一年裡，青春常駐，活力十足！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=青春"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年新年！願你在新的一年裡，財源廣進，福祿雙至！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=財源"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，春風得意！",
       "subject": "好友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=春風"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，才華橫溢，成就非凡！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=成就"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，錦上添花，幸福倍增！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=幸福"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭祝新年快樂！願你在新的一年裡，笑靨燦爛，生活富足！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=燦爛"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年祝福！祝你在新的一年裡，心想事成，萬事如意！",
       "subject": "同學",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=萬事"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年大吉大利！願你新的一年裡，乘風破浪，再創輝煌！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=輝煌"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，功成名就！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=成功"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，萬般美好，一一相伴！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=美好"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，飛黃騰達，前程似錦！",
       "subject": "好朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=似錦"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭恭喜喜！願你新的一年裡，好夢成真，美夢實現！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=成真"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新春快樂！祝你在新的一年裡，永遠年輕，永遠幸福！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=幸福永駐"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年新年！願你在新的一年裡，身體安康，家庭和樂！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=和樂"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，歡樂滿懷！",
       "subject": "同學",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=歡樂"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，智慧閃耀，光彩照人！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=照人"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，征途浩蕩，前路光芒！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=光芒璀璨"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭祝新年快樂！願你在新的一年裡，處處是福，時時是喜！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=福氣"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年祝福！祝你在新的一年裡，桃花朵朵開，好運滾滾來！",
       "subject": "好友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=好運"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年大吉！願你新的一年裡，一帆風順，永葆青春！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=風順"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，滿載而歸！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=滿載"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，開心無限，快樂無邊！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=快樂"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，夢想起航，揚帆遠航！",
       "subject": "同學",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=起航"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭恭喜喜！願你新的一年裡，財富滾滾，福氣多多！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=福多"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新春快樂！祝你在新的一年裡，步步為營，步步高昇！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=高昇"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年新年！願你在新的一年裡，英姿煥發，光彩奪目！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=英姿"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，笑聲常駐！",
       "subject": "好朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=笑聲"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，才能盡展，事業興盛！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=興盛"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，芝麻開花，節節高昇！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=節節"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭祝新年快樂！願你在新的一年裡，百般恩愛，千般美滿！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=美滿"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年祝福！祝你在新的一年裡，萬紫千紅，歲月靜好！",
       "subject": "同學",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=靜好"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年大吉大利！願你新的一年裡，珠光寶氣，永遠閃閃！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=寶氣"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，百花齊放！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=齊放"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，萬事順遂，好事成雙！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=成雙"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，龍騰虎躍，虎虎生風！",
       "subject": "好友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=生風"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭恭喜喜！願你新的一年裡，天地寬廣，前景無限！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=無限"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新春快樂！祝你在新的一年裡，錦繡前程，綽約多姿！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=錦繡"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年新年！願你在新的一年裡，歲月靜好，歲歲安康！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=安康"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，花樣年華！",
       "subject": "同學",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=年華"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，琴棋書畫樣樣精通！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=精通"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，桃李芬芳，春暖花開！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=花開"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭祝新年快樂！願你在新的一年裡，四海皆春，八方來財！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=來財"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年祝福！祝你在新的一年裡，三陽開泰，五福臨門！",
       "subject": "好朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=臨門"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年大吉！願你新的一年裡，六六大順，七星高照！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=大順"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，九九歸一！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=歸一"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新年好！願你在新的一年裡，十全十美，十年不衰！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFA500?text=十美"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年祝福！祝你在新的一年裡，百年好合，千年之愛！",
       "subject": "同學",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFD700?text=千年"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭恭喜喜！願你新的一年裡，萬般滿足，絕對幸福！",
       "subject": "親愛的朋友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFA500?text=滿足"
+      "image": "images/cropped_hb_3.png"
     },
     {
       "message": "新春快樂！祝你在新的一年裡，數不清的歡樂在心頭！",
       "subject": "朋友",
-      "image": "https://via.placeholder.com/400x500/dc143c/FFD700?text=歡樂"
+      "image": "images/cropped_hb_4.png"
     },
     {
       "message": "龍年新年！願你在新的一年裡，百般寵愛在一身！",
       "subject": "親愛的",
-      "image": "https://via.placeholder.com/400x500/8B0000/FFA500?text=寵愛"
+      "image": "images/cropped_hb_2.png"
     },
     {
       "message": "恭喜發財！新年快樂！祝你在新的一年裡，一生一世一雙人！",
       "subject": "好友",
-      "image": "https://via.placeholder.com/400x500/FF6B6B/FFD700?text=雙人"
+      "image": "images/cropped_hb_3.png"
     }
   ]
 }

@@ -29,6 +29,17 @@ ngrok http 8000
 
 Share the resulting URL on LINE, WhatsApp, Instagram, etc.!
 
+## Deploy to GitHub Pages
+
+This repo includes auto-deploy workflow:
+
+`.github/workflows/deploy-pages.yml`
+
+1. Push this project to a GitHub repo (default branch `main`).
+2. Go to **Settings > Pages**, set source to **GitHub Actions**.
+3. Push a commit to `main`.
+4. Open: `https://<username>.github.io/<repo>/`
+
 ## Customizing Messages
 
 Edit `messages.json` to add your own messages:
@@ -46,6 +57,34 @@ Edit `messages.json` to add your own messages:
 ```
 
 Just keep adding more messages to reach 100+!
+
+### Short Share Links With `id` (Recommended)
+
+To avoid very long URLs, put message content in `messages.json` and share only an `id`:
+
+```json
+{
+  "personalized": {
+    "dj_2026": {
+      "message": "Your long personalized message here",
+      "subject": "Dj",
+      "image": "images/cropped_hb_2.png"
+    }
+  }
+}
+```
+
+Then share:
+
+`https://your-domain.example/?id=dj_2026`
+
+Fallback is still supported:
+
+`?id=dj_2026&to=Dj`
+
+or
+
+`?to=Dj&message=...`
 
 ## Signature
 Made with ❤️ by **Chandra and Linlin**

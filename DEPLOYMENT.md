@@ -54,16 +54,27 @@ Copy the URL and share on:
 
 ## Permanent Deployment Options
 
-### Option 1: Netlify (Free, Easiest)
+### Option 1: GitHub Pages (Recommended)
+This repo already includes a GitHub Actions workflow at:
+
+`.github/workflows/deploy-pages.yml`
+
+#### Steps
+1. Create a GitHub repo and push this project.
+2. Make sure your default branch is `main`.
+3. In GitHub: **Settings > Pages > Build and deployment > Source = GitHub Actions**.
+4. Push any commit to `main` (or run workflow manually from Actions tab).
+5. Your site will be live at:
+   - `https://<username>.github.io/<repo>/`
+
+If your repo is named `portfolio`, example URL:
+- `https://<username>.github.io/portfolio/`
+
+### Option 2: Netlify (Free, Easiest)
 1. Go to https://netlify.com
 2. Drag and drop your portfolio folder
 3. Get a permanent URL
 4. Share that link!
-
-### Option 2: GitHub Pages (Free)
-1. Push to GitHub
-2. Enable Pages in settings
-3. Get URL like: `yourusername.github.io/portfolio`
 
 ### Option 3: Vercel (Free)
 1. Go to https://vercel.com

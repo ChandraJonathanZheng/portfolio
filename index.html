@@ -8,12 +8,21 @@
 </head>
 <body>
     <div class="background"></div>
+    <div class="ornament-layer" aria-hidden="true">
+        <div class="ornament lantern lantern-left"></div>
+        <div class="ornament lantern lantern-right"></div>
+        <div class="ornament firecracker firecracker-left"></div>
+        <div class="ornament firecracker firecracker-right"></div>
+        <div class="ornament barongsai barongsai-left"><span>獅</span></div>
+        <div class="ornament barongsai barongsai-right"><span>獅</span></div>
+    </div>
 
     <div class="container">
         <div class="envelope-wrapper">
             <div class="envelope" id="envelope">
                 <div class="envelope-front">
-                    <img id="envelope-image" src="https://via.placeholder.com/400x500/dc143c/ffffff?text=紅包" alt="Red Envelope" class="envelope-image">
+                    <img id="envelope-image" src="images/cropped_hb_2.png" alt="Red Envelope" class="envelope-image">
+                    <script>document.getElementById('envelope-image').src = `images/cropped_hb_${Math.floor(Math.random() * 3) + 1}.png`;</script>
                     <div class="envelope-shine"></div>
                 </div>
                 <div class="envelope-back"></div>
@@ -29,7 +38,7 @@
             <button id="close-btn" class="close-button">&times;</button>
             <div class="card">
                 <div class="card-header">
-                    <h2>恭喜發財</h2>
+                    <h2>新年快樂! </h2>
                     <p class="subject" id="card-subject"></p>
                 </div>
                 <div class="card-body">
