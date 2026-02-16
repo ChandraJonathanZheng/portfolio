@@ -44,13 +44,40 @@ function displayMessage(index) {
 
 // Open envelope
 document.getElementById('open-btn').addEventListener('click', () => {
-    document.getElementById('modal').classList.remove('hidden');
-    displayMessage(currentMessageIndex);
+    const envelope = document.getElementById('envelope');
+    const openBtn = document.getElementById('open-btn');
+    const container = document.querySelector('.container');
+
+    // Add opening animation to envelope
+    envelope.classList.add('opening');
+    openBtn.style.pointerEvents = 'none';
+    openBtn.style.opacity = '0.5';
+
+    // Show modal after envelope animation starts
+    setTimeout(() => {
+        document.getElementById('modal').classList.remove('hidden');
+        displayMessage(currentMessageIndex);
+
+        // Trigger confetti
+        for (let i = 0; i < 8; i++) {
+            setTimeout(() => createConfetti(), i * 40);
+        }
+    }, 400);
 });
 
 // Close modal
 document.getElementById('close-btn').addEventListener('click', () => {
+    const envelope = document.getElementById('envelope');
+    const openBtn = document.getElementById('open-btn');
+
     document.getElementById('modal').classList.add('hidden');
+
+    // Reset envelope animation
+    setTimeout(() => {
+        envelope.classList.remove('opening');
+        openBtn.style.pointerEvents = 'auto';
+        openBtn.style.opacity = '1';
+    }, 300);
 });
 
 // Next message
@@ -97,9 +124,3 @@ function createConfetti() {
     }, 30);
 }
 
-// Trigger confetti occasionally when opening envelopes
-document.getElementById('open-btn').addEventListener('click', () => {
-    for (let i = 0; i < 5; i++) {
-        setTimeout(() => createConfetti(), i * 50);
-    }
-});

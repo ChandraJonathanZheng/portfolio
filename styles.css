@@ -44,28 +44,104 @@ body {
 }
 
 .envelope-wrapper {
-    perspective: 1000px;
+    perspective: 1200px;
     max-width: 500px;
     width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .envelope {
     position: relative;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.envelope:hover {
-    transform: scale(1.05) rotateY(5deg);
+.envelope.opening {
+    animation: envelopeOpen 1.2s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
+
+@keyframes envelopeOpen {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    40% {
+        transform: rotateY(0deg) rotateX(-15deg);
+    }
+    60% {
+        transform: rotateY(-25deg) rotateX(-10deg);
+    }
+    100% {
+        transform: rotateY(-90deg) rotateX(0deg) translateX(-100px);
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.envelope-front,
+.envelope-back,
+.envelope-flap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.envelope-front {
+    transform: translateZ(0);
+    z-index: 2;
+}
+
+.envelope-back {
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+    transform: rotateY(180deg);
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.envelope-flap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(180deg, #dc143c 0%, #8B0000 100%);
+    transform-origin: top;
+    transform: rotateX(0deg);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2) inset;
+    z-index: 3;
+}
+
+.envelope:hover .envelope-flap {
+    animation: flapFlutter 0.6s ease-in-out infinite;
+}
+
+@keyframes flapFlutter {
+    0%, 100% {
+        transform: rotateX(0deg);
+    }
+    50% {
+        transform: rotateX(-5deg);
+    }
 }
 
 .envelope-image {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     border-radius: 10px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
+    object-fit: cover;
 }
 
 .envelope-shine {
@@ -77,6 +153,7 @@ body {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, transparent 50%, rgba(255, 255, 255, 0) 100%);
     border-radius: 10px;
     pointer-events: none;
+    z-index: 2;
 }
 
 .open-button {
@@ -128,16 +205,20 @@ body {
     position: relative;
     width: 100%;
     max-width: 500px;
-    animation: slideUp 0.5s ease;
+    animation: cardFlipAppear 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-@keyframes slideUp {
-    from {
-        transform: translateY(50px);
+@keyframes cardFlipAppear {
+    0% {
+        transform: translateY(100px) rotateX(-90deg) scaleY(0.5);
         opacity: 0;
     }
-    to {
-        transform: translateY(0);
+    50% {
+        transform: translateY(50px) rotateX(-45deg) scaleY(0.75);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0) rotateX(0deg) scaleY(1);
         opacity: 1;
     }
 }
@@ -167,6 +248,23 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
+    transform-style: preserve-3d;
+    animation: cardFlipIn 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.2s both;
+}
+
+@keyframes cardFlipIn {
+    0% {
+        transform: rotateY(90deg) rotateX(-15deg);
+        opacity: 0;
+    }
+    50% {
+        transform: rotateY(45deg) rotateX(-8deg);
+        opacity: 0.7;
+    }
+    100% {
+        transform: rotateY(0deg) rotateX(0deg);
+        opacity: 1;
+    }
 }
 
 .card::before {
