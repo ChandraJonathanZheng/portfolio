@@ -69,6 +69,15 @@ function getQueryPersonalization() {
     return { to, id, message };
 }
 
+function normalizeId(value) {
+    return (value || '')
+        .trim()
+        .toLowerCase()
+        .normalize('NFKD')
+        .replace(/[̀-ͯ]/g, '')
+        .replace(/[^a-z0-9]+/g, '');
+}
+
 function getMessageById(data, id) {
     if (!id) return null;
 
@@ -79,21 +88,24 @@ function getMessageById(data, id) {
             return mapped;
         }
 
-        const normalizedId = id.toLowerCase();
-        const caseInsensitiveKey = Object.keys(data.personalized)
-            .find((key) => key.toLowerCase() === normalizedId);
+        const normalizedId = normalizeId(id);
+        const matchedEntry = Object.entries(data.personalized).find(([key, value]) => {
+            if (!value || typeof value !== 'object') return false;
 
-        if (caseInsensitiveKey) {
-            const fallbackMapped = data.personalized[caseInsensitiveKey];
-            if (fallbackMapped && typeof fallbackMapped === 'object') {
-                return fallbackMapped;
-            }
+            const keyMatches = normalizeId(key) === normalizedId;
+            const subjectMatches = normalizeId(value.subject) === normalizedId;
+
+            return keyMatches || subjectMatches;
+        });
+
+        if (matchedEntry) {
+            return matchedEntry[1];
         }
     }
 
     // Backward-compatible: allow id inside regular messages array.
     const list = data && Array.isArray(data.messages) ? data.messages : [];
-    return list.find((item) => item && item.id === id) || null;
+    return list.find((item) => item && normalizeId(item.id) === normalizeId(id)) || null;
 }
 
 // Load messages from JSON
