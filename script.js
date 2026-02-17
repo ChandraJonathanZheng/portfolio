@@ -39,7 +39,7 @@ function getQueryPersonalization() {
     const id = (params.get('id') || '').trim();
     const message = (params.get('message') || '').trim();
 
-    if (!id && !message) return null;
+    if (!to && !id && !message) return null;
 
     return { to, id, message };
 }
@@ -97,7 +97,25 @@ async function loadMessages() {
             document.getElementById('next-btn').style.display = 'none';
             document.getElementById('open-btn').textContent = recipientName
                 ? `點擊開啟 ${recipientName} 的紅包`
-                : '點擊開啟紅包';
+                    : '點擊開啟紅包';
+            return;
+        }
+
+        if (personalized && personalized.to) {
+            const recipientName = personalized.to.trim();
+            const messagePool = Array.isArray(data.messages) ? data.messages : [];
+            const randomMessage = messagePool.length > 0
+                ? messagePool[Math.floor(Math.random() * messagePool.length)]
+                : null;
+
+            personalizedRecipient = recipientName;
+            messages = [{
+                subject: recipientName || 'Friend',
+                message: (randomMessage && randomMessage.message) || '新年快樂！祝你事業順利，身體健康！',
+                image: (randomMessage && randomMessage.image) || undefined
+            }];
+            document.getElementById('next-btn').style.display = 'none';
+            document.getElementById('open-btn').textContent = `點擊開啟 ${recipientName} 的紅包`;
             return;
         }
 
