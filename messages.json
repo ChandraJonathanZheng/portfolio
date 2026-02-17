@@ -12,7 +12,7 @@
     },
     "heni": {
       "subject": "Heni",
-      "message": "Halo Hen,\nlu bener-bener keren sih… selalu aja bikin terobosan yang nggak pernah gue sangka. Hal-hal yang dulu gue pikir mustahil, tapi lewat iman dan keberanian lu, semuanya jadi mungkin.\nSemangat terus buat new year, new season ya!\n新年快樂!\n\nBy the way, ada satu pertanyaan iseng:\nkalau harus nyanyiin pakai suara bayi, lagu apa yang paling menggambarkan kehidupan cinta lu? 😆",
+      "message": "Halo Hen,\nlu bener-bener keren sih… selalu aja bikin terobosan yang nggak pernah gue sangka. Hal-hal yang dulu gue pikir mustahil, tapi lewat iman dan keberanian lu, semuanya jadi mungkin.\nSemangat terus buat new year, new season ya!\n新年快樂!\n\nBy the way, ada satu pertanyaan iseng:\nkalau harus nyanyiin pakai suara bayi, lagu apa yang paling menggambarkan kehidupan cinta lu? ",
       "image": "images/cropped_hb_4.png"
     },
     "stevan": {
@@ -247,37 +247,37 @@
     },
   "Riven": {
     "subject": "新年快樂，Riven！",
-    "message": "祝你在新的一年裡，技術穩穩成長，full stack 能力越來越強！\n專案順利、學習滿滿，每天都比昨天更厲害！😆",
+    "message": "祝你在新的一年裡，技術穩穩成長，full stack 能力越來越強！\n專案順利,學習滿滿，每天都比昨天更厲害！",
     "image": "images/cropped_hb_3.png"
   },
   "Lupin": {
     "subject": "新年快樂，Lupin！",
-    "message": "祝你在新的一年裡，帶領團隊越來越強，專案順利、成果滿滿！\n工作順心、身體健康，也有更多值得開心的時刻！",
+    "message": "祝你在新的一年裡，帶領團隊越來越強，專案順利、成果滿滿！\n工作順心、身體健康, 也有更多值得開心的時刻！",
     "image": "images/cropped_hb_3.png"
   },
   "Simon": {
     "subject": "新年快樂，Simon！",
-    "message": "祝你新的一年寫出更順更美的前端，打造超棒的網站體驗！😆\n專案順利、靈感滿滿、每天都有好心情！",
+    "message": "祝你新的一年寫出更順更美的前端，打造超棒的網站體驗！\n專案順利、靈感滿滿、每天都有好心情！",
     "image": "images/cropped_hb_3.png"
   },
   "Mia": {
     "subject": "新年快樂，Mia！",
-    "message": "願你在新的一年裡，做出又美又順的前端介面，專案都大成功！😆\n工作順心、生活開心、靈感滿滿！",
+    "message": "願你在新的一年裡，做出又美又順的前端介面，專案都大成功！\n工作順心、生活開心、靈感滿滿！",
     "image": "images/cropped_hb_3.png"
   },
   "Joyce": {
     "subject": "新年快樂，Joyce！",
-    "message": "祝你新的一年打造更多優秀的前端作品，技術一路升級！😆\n每天都充滿動力和好點子！",
+    "message": "祝你新的一年打造更多優秀的前端作品，技術一路升級！\n每天都充滿動力和好點子！",
     "image": "images/cropped_hb_3.png"
   },
   "Jiahao": {
     "subject": "新年快樂，Jiahao！",
-    "message": "祝你新的一年前端實力大爆發，寫出更快更順的網站！😆\n專案順利、升級加薪都來！",
+    "message": "祝你新的一年前端實力大爆發，寫出更快更順的網站！\n專案順利、升級加薪都來！",
     "image": "images/cropped_hb_3.png"
   },
   "Ken": {
     "subject": "新年快樂，Ken！",
-    "message": "祝你新的一年開發出更穩更順的 App，功能強大、用戶滿意！📱😆\n專案順利、靈感滿滿、技術持續升級！",
+    "message": "祝你新的一年開發出更穩更順的 App，功能強大、用戶滿意！\n專案順利、靈感滿滿、技術持續升級！",
     "image": "images/cropped_hb_3.png"
   }},
   "messages": [
