@@ -78,6 +78,17 @@ function getMessageById(data, id) {
         if (mapped && typeof mapped === 'object') {
             return mapped;
         }
+
+        const normalizedId = id.toLowerCase();
+        const caseInsensitiveKey = Object.keys(data.personalized)
+            .find((key) => key.toLowerCase() === normalizedId);
+
+        if (caseInsensitiveKey) {
+            const fallbackMapped = data.personalized[caseInsensitiveKey];
+            if (fallbackMapped && typeof fallbackMapped === 'object') {
+                return fallbackMapped;
+            }
+        }
     }
 
     // Backward-compatible: allow id inside regular messages array.
