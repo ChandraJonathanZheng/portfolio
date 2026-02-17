@@ -33,11 +33,36 @@ function normalizeMessageText(rawMessage) {
     return text;
 }
 
+function decodeUrlValue(value) {
+    if (!value) return '';
+    try {
+        return decodeURIComponent(value.replace(/\+/g, ' '));
+    } catch (error) {
+        return value;
+    }
+}
+
+function getRawMessageFromUrl() {
+    const href = window.location.href || '';
+    const match = href.match(/[?&](?:message|Message|msg|text)=([\s\S]*)/);
+    if (!match) return '';
+
+    // Keep everything after message= (useful when users paste non-encoded text).
+    const value = match[1].split('#')[0];
+    return decodeUrlValue(value).trim();
+}
+
 function getQueryPersonalization() {
     const params = new URLSearchParams(window.location.search);
     const to = (params.get('to') || '').trim();
     const id = (params.get('id') || '').trim();
-    const message = (params.get('message') || '').trim();
+    const message = (
+        params.get('message') ||
+        params.get('Message') ||
+        params.get('msg') ||
+        params.get('text') ||
+        getRawMessageFromUrl()
+    ).trim();
 
     if (!to && !id && !message) return null;
 
